@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="M3Act is a synthetic data generator for multi-view multi-group multi-person atomic human actions and group activities. M3Act is designed to support multi-person and multi-group research."/>
+  <meta property="og:title" content="M3Act: Learning from Synthetic Human Group Activities"/>
+  <meta property="og:description" content="M3Act is a synthetic data generator for multi-view multi-group multi-person atomic human actions and group activities. M3Act is designed to support multi-person and multi-group research."/>
+  <meta property="og:url" content="https://cjerry1243.github.io/M3Act/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/TeaserImage.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="M3Act: Learning from Synthetic Human Group Activities">
+  <meta name="twitter:description" content="M3Act is a synthetic data generator for multi-view multi-group multi-person atomic human actions and group activities. M3Act is designed to support multi-person and multi-group research.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/TeaserImage.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="synthetic data, multi-person tracking, group activity recognition, group activity generation, human-centric computer vision">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Learning from Synthetic Human Group Activities</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Learning from Synthetic Human Group Activities</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://sites.google.com/view/chejuichang/" target="_blank">Che-Jui Chang</a><sup>1,4</sup>,</span>
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/danrui-li-a4b5a5189/" target="_blank">Danrui Li</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://deepsworld.github.io/" target="_blank">Deep Patel</a><sup>2</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.linkedin.com/in/parth-goe1/" target="_blank">Parth Goel</a><sup>1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://moonsh.github.io/" target="_blank">Seonghyeon Moon</a><sup>1,4</sup>,
+                  </span>
+                  <br>
+                  <span class="author-block">
+                    <a href="https://www.linkedin.com/in/sssohn/" target="_blank">Samuel S. Sohn</a><sup>1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://sites.google.com/view/hongluzhou/" target="_blank">Honglu Zhou</a><sup>2</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://sejongyoon.net/" target="_blank">Sejong Yoon</a><sup>3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.cs.rutgers.edu/people/professors/details/vladimir-pavlovic" target="_blank">Vladimir Pavlovic</a><sup>1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.cs.rutgers.edu/people/professors/details/mubbasir-kapadia" target="_blank">Mubbasir Kapadia</a><sup>4</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Rutgers University,</span>
+                    <span class="author-block"><sup>2</sup>NEC Laboratories,</span>
+                    <br>
+                    <span class="author-block"><sup>3</sup>The College of New Jersey,</span>
+                    <span class="author-block"><sup>4</sup>Roblox</span>
+                    <br>
+                    <span class="author-block"><b>CVPR 2024</b></span>
+                    <!--<span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2306.16772.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://cjerry1243.github.io/M3Act/" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://cjerry1243.github.io/M3Act/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code & Data (Coming Soon!)</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2306.16772" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2> -->
+      <img src="static/images/TeaserImage.png" alt=""/>
+      <p>
+        <!-- <h2 class="subtitle has-text-centered"> -->
+          <b>TLDR.</b> We introduce M<sup>3</sup>Act, a synthetic data generator for <b>m</b>ulti-view <b>m</b>ulti-group <b>m</b>ulti-person atomic human <b>act</b>ions and group <b>act</b>ivities.
+          </br>
+          <b>M<sup>3</sup>Act is designed to support multi-person and multi-group research.</b> 
+          It features multiple semantic groups and produces highly diverse and photorealistic videos with a rich set of annotations suitable for human-centered tasks including multi-person tracking, group activity recognition, and controllable human group activity generation.
+        <!-- </h2> -->
+      </p>
+    </div>
+  </div>
+</section> 
+<!-- End teaser -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The study of complex human interactions and group activities has become a focal point in human-centric computer vision. 
+            However, progress in related tasks is often hindered by the challenges of obtaining large-scale labeled datasets from real-world scenarios. 
+            To address the limitation, we introduce M<sup>3</sup>Act, a synthetic data generator for multi-view multi-group multi-person human atomic actions and group activities. 
+            Powered by the Unity engine, M<sup>3</sup>Act features multiple semantic groups, highly diverse and photorealistic images, and a comprehensive set of annotations, which facilitates the learning of human-centered tasks across single-person, multi-person, and multi-group conditions. 
+            We demonstrate the advantages of M<sup>3</sup>Act across three core experiments using various input modalities. 
+            First, adding our synthetic data significantly improves the performance of MOTRv2 on DanceTrack, leading to a hop on the leaderboard from 10th to 2nd place. 
+            With M<sup>3</sup>Act, we achieve tracking results on par with MOTRv2*, which is trained with 62.5% more real-world data. 
+            Second, M<sup>3</sup>Act improves the benchmark performances on CAD2 by 5.59% and 7.43% on group activity and atomic action accuracy respectively. 
+            Moreover, M<sup>3</sup>Act opens new research for controllable 3D group activity generation. 
+            We define multiple metrics and propose a competitive baseline for the novel task.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="section hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Synthetic Data Generation</h2>
+          <div class="content has-text-justified">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item">
+                <img src="static/images/DatasetComparison.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                  A comparison of synthetic datasets as well as commonly-used real datasets for activity understanding and person tracking.
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/Pipeline.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                  The data generation process of M<sup>3</sup>Act. It consists of multiple data simulations with scene instantiation, group activity authoring, 
+                    and a data capture module. 
+                  A high degree of randomization is involved in all aspects of the process to ensure diverse data.
+                </h2>
+              </div>
+
+              <!-- <div class="item">
+                <img src="static/images/M3Act3D_Stats.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                  A comparison of datasets for 3D multi-person human activities. 
+                  M<sup>3</sup>Act3D (our 3D-only dataset) is the largest dataset with labels for atomic actions and more persons in a group.
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/MPT_QuantResult_v1.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                  Multi-person tracking results on DanceTrack. “D” means synthetic dance group. “WR” means walk and run groups. 
+                  “All” refers to “D” and “WR” combined. The symbol ⊛ represents the authorprovided checkpoint. 
+                  The symbol † marks our best-performing model. 
+                  Numbers in parentheses represent the rank in the DanceTrack leaderboard.
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/GAR_QuantResult.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                  Results on 2D skeleton-based group activity and person action recognition. 
+                  The best results are shown in parentheses.
+                  The results suggest that pre-training with our synthetic data largely increases the accuracy for both group activity and person actions.
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/3DQualitativeResult.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                  The qualitative comparison of two group activities from ground truth (GT), MDM, and MDM+IFormer. The distribution of the persons from MDM+IFormer is closer to GT.
+                </h2>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Sample images -->
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Sample Images</h2>
+          <div class="content has-text-justified">
+            <div id="results-carousel" class="carousel results-carousel">
+
+              <div class="item">
+                <img src="static/images/RenderingCollage7.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/RenderingCollage6.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                </h2>
+              </div>
+<!-- 
+              <div class="item">
+                <img src="static/images/RenderingCollage5.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/RenderingCollage4.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/RenderingCollage3.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/RenderingCollage2.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                </h2>
+              </div>
+
+              <div class="item">
+                <img src="static/images/RenderingCollage1.png" alt=""/>
+                <h2 class="subtitle has-text-centered">
+                </h2>
+              </div> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Sample images -->
+
+
+
+<!-- Youtube video -->
+<section class="section hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video Demo</h2>
+          <div class="content has-text-justified">
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/w5HsIBCExe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<!-- Video carousel -->
+<!-- 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+-->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{chang2023learning,
+      title={Learning from Synthetic Human Group Activities}, 
+      author={Che-Jui Chang and Danrui Li and Deep Patel and Parth Goel and Honglu Zhou and Seonghyeon Moon and Samuel S. Sohn and Sejong Yoon and Vladimir Pavlovic and Mubbasir Kapadia},
+      year={2023},
+      eprint={2306.16772},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
