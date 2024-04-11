@@ -24,7 +24,7 @@ Coming up soon!
 
 
 ## Citation
-If you find our work useful, please cite our work.
+If you find our work useful, please cite the following works.
 ```BibTeX
 @misc{chang2023learning,
       title={Learning from Synthetic Human Group Activities}, 
@@ -33,6 +33,16 @@ If you find our work useful, please cite our work.
       eprint={2306.16772},
       archivePrefix={arXiv},
       primaryClass={cs.CV}}
+```
+
+```BibTeX
+@misc{chang2024equivalency,
+      title={On the Equivalency, Substitutability, and Flexibility of Synthetic Data},
+      author={Che-Jui Chang and Danrui Li and Seonghyeon Moon and Mubbasir Kapadia},
+      year={2024},
+      eprint={2403.16244},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}}
 ```
 
 ## License
