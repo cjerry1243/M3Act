@@ -36,13 +36,21 @@ If you find our work useful, please cite the following works.
 ```
 
 ```BibTeX
-@misc{chang2024equivalency,
-      title={On the Equivalency, Substitutability, and Flexibility of Synthetic Data},
-      author={Che-Jui Chang and Danrui Li and Seonghyeon Moon and Mubbasir Kapadia},
-      year={2024},
-      eprint={2403.16244},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}}
+@article{chang2023learning,
+  title={Learning from Synthetic Human Group Activities},
+  author={Chang, Che-Jui and Zhou, Honglu and Goel, Parth and Bhat, Aditya and Moon, Seonghyeon and Sohn, Samuel S and Yoon, Sejong and Pavlovic, Vladimir and Kapadia, Mubbasir},
+  journal={arXiv preprint arXiv:2306.16772},
+  year={2023}
+}
+```
+
+```BibTeX
+@article{chang2024equivalency,
+  title={On the Equivalency, Substitutability, and Flexibility of Synthetic Data},
+  author={Chang, Che-Jui and Li, Danrui and Moon, Seonghyeon and Kapadia, Mubbasir},
+  journal={arXiv preprint arXiv:2403.16244},
+  year={2024}
+}
 ```
 
 ## License
