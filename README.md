@@ -25,22 +25,14 @@ Coming up soon!
 
 ## Citation
 If you find our work useful, please cite the following works.
-```BibTeX
-@misc{chang2023learning,
-      title={Learning from Synthetic Human Group Activities}, 
-      author={Che-Jui Chang and Danrui Li and Deep Patel and Parth Goel and Honglu Zhou and Seonghyeon Moon and Samuel S. Sohn and Sejong Yoon and Vladimir Pavlovic and Mubbasir Kapadia},
-      year={2023},
-      eprint={2306.16772},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}}
-```
 
 ```BibTeX
-@article{chang2023learning,
+@inproceedings{chang2024learning,
   title={Learning from Synthetic Human Group Activities},
-  author={Chang, Che-Jui and Zhou, Honglu and Goel, Parth and Bhat, Aditya and Moon, Seonghyeon and Sohn, Samuel S and Yoon, Sejong and Pavlovic, Vladimir and Kapadia, Mubbasir},
-  journal={arXiv preprint arXiv:2306.16772},
-  year={2023}
+  author={Chang, Che-Jui and Li, Danrui and Patel, Deep and Goel, Parth and Zhou, Honglu and Moon, Seonghyeon and Sohn, Samuel S and Yoon, Sejong and Pavlovic, Vladimir and Kapadia, Mubbasir},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={21922--21932},
+  year={2024}
 }
 ```
 
