@@ -1,10 +1,10 @@
 # M3Act: Learning from Synthetic Human Group Activities
 
-**[CVPR 2024](https://cvpr.thecvf.com/) | Official Repository**
+**[CVPR 2024](https://cvpr.thecvf.com/virtual/2024/poster/29759) | Official Repository**
 
 
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://cjerry1243.github.io/M3Act/)
-[![Paper](https://img.shields.io/badge/Paper-Link-blue)](https://arxiv.org/abs/2306.16772)
+[![Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Chang_Learning_from_Synthetic_Human_Group_Activities_CVPR_2024_paper.html)
 [![arXiv](https://img.shields.io/badge/arXiv-2306.16772-red)](https://arxiv.org/abs/2306.16772)
 
 This repository contains a Unity project with the core modules and assets for our synthetic data generator, M3Act. 
