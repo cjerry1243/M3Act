@@ -14,13 +14,16 @@ pip install -r requirements.txt
 
 ## Preparation
 
-- Prepare 3D dataset
+- Prepare 3D dataset:
+
 Download [M3Act3D](https://tally.so/r/wvLN60) dataset and put all *.h5 files under current directory (`gag/`).
 
-- Get model checkpoint
+- Get model checkpoint:
+
 Download MDM+IFormer [checkpoint](https://github.com/cjerry1243/M3Act/tree/master/gag).
 
-- Get evaluation model checkpoint
+- Get evaluation model checkpoint:
+
 Download Composer3D [checkpoint](https://github.com/cjerry1243/M3Act/tree/master/gag).
 
 
@@ -72,7 +75,7 @@ with h5py.File(path_to_h5_file, "r") as h5:
 ```
 
 
-- Stick Figure Visualization:  
+### Stick Figure Visualization:  
 
 ```bash
 python skeleton_visualize.py
@@ -81,7 +84,7 @@ python skeleton_visualize.py
 Resulting videos will be saved to `results/` folder.
 
 
-- SMPL Visualization:  
+### SMPL Visualization:  
 
 TBD
 
