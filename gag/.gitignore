@@ -163,3 +163,4 @@ cython_debug/
 
 # Large files
 *.h5
+results/
