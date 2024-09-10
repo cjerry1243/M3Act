@@ -14,20 +14,18 @@ pip install -r requirements.txt
 
 ## Preparation
 
-- Prepare 3D dataset:
+1. Prepare 3D dataset:
 
 Download [M3Act3D](https://tally.so/r/wvLN60) dataset and put all *.h5 files under current directory (`gag/`).
 
-- Get model checkpoint:
+2. Download model checkpoints: (TBD)
 
-Download MDM+IFormer [checkpoint](https://github.com/cjerry1243/M3Act/tree/master/gag).
+- Download MDM+IFormer [checkpoint](https://github.com/cjerry1243/M3Act/tree/master/gag). (TBD)
 
-- Get evaluation model checkpoint:
-
-Download Composer3D [checkpoint](https://github.com/cjerry1243/M3Act/tree/master/gag).
+- Download Evaluation Model Checkpoint, [Composer3D](https://github.com/cjerry1243/M3Act/tree/master/gag). (TBD)
 
 
-## M3Act3D:
+## M3Act3D Dataset
 
 The h5 data contains simulations of all 6 group activities. The length of each simulation clip is 150 frames, in 30 FPS.
 
@@ -75,7 +73,7 @@ with h5py.File(path_to_h5_file, "r") as h5:
 ```
 
 
-### Stick Figure Visualization:  
+### Stick Figure Visualization  
 
 ```bash
 python skeleton_visualize.py
@@ -84,7 +82,7 @@ python skeleton_visualize.py
 Resulting videos will be saved to `results/` folder.
 
 
-### SMPL Visualization:  
+### SMPL Visualization  
 
 TBD
 

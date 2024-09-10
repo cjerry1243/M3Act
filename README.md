@@ -20,10 +20,12 @@ Coming up soon!
 
 
 ## 3D Group Activity Generation
-Coming up soon!
+
+Please refer to [gag](./gag/README.md) folder for more details.
 
 
 ## Citation
+
 If you find our work useful, please cite the following works.
 
 ```BibTeX
