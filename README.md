@@ -21,7 +21,7 @@ Coming up soon!
 
 ## 3D Group Activity Generation
 
-Please refer to [gag](./gag/README.md) folder for more details.
+Please refer to [gag](./gag/) folder for more details.
 
 
 ## Citation

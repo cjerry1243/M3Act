@@ -16,13 +16,13 @@ pip install -r requirements.txt
 
 1. Prepare 3D dataset:
 
-Download [M3Act3D](https://tally.so/r/wvLN60) dataset and put all *.h5 files under current directory (`gag/`).
+    - Download [M3Act3D](https://tally.so/r/wvLN60) dataset and put all *.h5 files under current directory (`gag/`).
 
 2. Download model checkpoints: (TBD)
 
-- Download MDM+IFormer [checkpoint](https://github.com/cjerry1243/M3Act/tree/master/gag). (TBD)
+    - Download MDM+IFormer [checkpoint](https://github.com/cjerry1243/M3Act/tree/master/gag). (TBD)
 
-- Download Evaluation Model Checkpoint, [Composer3D](https://github.com/cjerry1243/M3Act/tree/master/gag). (TBD)
+    - Download Evaluation Model Checkpoint, [Composer3D](https://github.com/cjerry1243/M3Act/tree/master/gag). (TBD)
 
 
 ## M3Act3D Dataset
