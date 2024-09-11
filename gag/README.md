@@ -50,10 +50,10 @@ with h5py.File(path_to_h5_file, "r") as h5:
     rot6d = h5[keys[idx]]["bone_lengths"][:]  # bone lengths
     # shape: (num_people, num_bones)
 
-    rot6d = h5[keys[idx]]["group_id"][()]  # group class (int)
-    rot6d = h5[keys[idx]]["group_name"][()]  # group name (str)
+    group_id = h5[keys[idx]]["group_id"][()]  # group class (int)
+    group_name = h5[keys[idx]]["group_name"][()]  # group name (str)
 
-    rot6d = h5[keys[idx]]["action_id"][:]  # action classes
+    action_id = h5[keys[idx]]["action_id"][:]  # action classes
     # shape: (150, num_people)
 
     ACTIONS = { 0: 'Idle',
