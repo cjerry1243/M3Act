@@ -16,7 +16,8 @@ We also release the 3D group activity dataset, M3Act3D, as well as the essential
 M3Act is designed to support multi-person and multi-group research. It features multiple semantic groups and produces highly diverse and photorealistic videos with a rich set of annotations suitable for human-centered tasks including multi-person tracking, group activity recognition, and controllable human group activity generation. Please refer to our project page and paper for more details.
 
 ## Synthetic Data Generator
-Coming up soon!
+
+For setting up the Unity environment and generating data with M3Act, please refer to the [m3act-unity-generator](https://github.com/danruili/m3act-unity-generator) repository.
 
 
 ## 3D Group Activity Generation
